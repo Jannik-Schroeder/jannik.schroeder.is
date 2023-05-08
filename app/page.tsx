@@ -1,9 +1,12 @@
-export default function Home() {
-  return (
-      <div className="bg-primary min-h-screen">
-        <section>
+import Welcome from '@/components/welcome'
 
-        </section>
-      </div>
-  )
-}
+
+export default function Home() {
+        return (
+            <div className="bg-primary text-primary min-h-screen">
+                <section>
+                    <Welcome/>
+                </section>
+            </div>
+        )
+    }
