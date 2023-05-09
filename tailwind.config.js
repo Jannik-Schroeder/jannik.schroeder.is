@@ -16,5 +16,5 @@ module.exports = {
       'accent': '#e1e4e8',
     }),
     },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }

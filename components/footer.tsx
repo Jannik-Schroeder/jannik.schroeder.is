@@ -16,7 +16,7 @@ const Footer = () => {
                         <h3 className="text-2xl font-bold mb-4">Quick Links</h3>
                         <ul>
                             <li><a href="/" className="hover:text-blue-300 transition duration-200">Home</a></li>
-                            <li><a href="/projects" className="hover:text-blue-300 transition duration-200"></a>Projects</li>
+                            <li><a href="/app/projects" className="hover:text-blue-300 transition duration-200"></a>Projects</li>
                             <li><a href="https://github.com/schroeder-is" className="hover:text-blue-300 transition duration-200">Github</a></li>
                         </ul>
                     </div>
