@@ -12,7 +12,7 @@ const HomePage = () => {
     ));
 
     return (
-        <div className="bg-primary justify-center">
+        <div className="bg-primary justify-center min-h-screen">
             <div className="container mx-auto px-4 py-8 md:py-16 h-full flex items-center justify-center">
                 <div className="flex flex-col md:flex-row items-center justify-center md:justify-between w-full">
                     <div className="text-primary text-center md:text-left mb-8 md:mb-0">
