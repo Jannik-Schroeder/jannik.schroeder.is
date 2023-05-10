@@ -13,7 +13,7 @@ const Header = () => {
     };
 
     return (
-        <header className="bg-secondary py-4">
+        <header className="bg-secondary py-4 ">
             <div className="container mx-auto flex justify-between items-center px-4">
                 <Link href="/">
                     <div className="text-primary font-bold text-xl">Jannik Schröder</div>

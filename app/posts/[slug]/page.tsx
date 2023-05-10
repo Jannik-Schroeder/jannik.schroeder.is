@@ -36,6 +36,6 @@ const PostPage = (props: any) => {
       </article>
     </div>
   );
-};
+
 
 export default PostPage;
