@@ -13,7 +13,7 @@ const PostPreview = (props: PostMetadata) => {
             <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-gray-500"></div>
           </div>
         <Image
-          src="/public/me.jpeg"
+          src={props.image}
           alt={props.title}
           width="340"
           height="190"
