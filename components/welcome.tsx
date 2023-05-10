@@ -6,8 +6,24 @@ import {IoIosPin} from "react-icons/io";
 import {TypeAnimation} from "react-type-animation";
 import {FiGithub, FiTwitter, FiInstagram, FiLinkedin} from "react-icons/fi";
 
+const birthYear = 2005;
+const targetMonth = 9; // Mai
+const targetDay = 1;
+
+const calculateAge = (birthYear: number, targetMonth: number, targetDay: number | undefined) => {
+    const today = new Date();
+    const birthDate = new Date(birthYear, 0, 1);
+    const targetDate = new Date(today.getFullYear(), targetMonth - 1, targetDay);
+    let age = today.getFullYear() - birthYear;
+    if (today < targetDate) {
+        age--;
+    }
+    return age;
+};
 
 const Welcome = () => {
+    const age = calculateAge(birthYear, targetMonth, targetDay);
+
     return (
         <div className="container lg:max-w-screen-lg mx-auto px-6 break-all">
             <div className="bg-primary justify-center">
@@ -22,7 +38,7 @@ const Welcome = () => {
                             </a>
                                 <h1 className="text-4xl md:h-6 font-bold mb-4 text-primary">Jannik Schröder <span className="wave">👋</span></h1>
                             <div className="text-primary flex font-semibold dark:text-gray-100 mb-4">
-                                {new Date().getFullYear() - 2005} y/o &mdash;&nbsp;
+                                {age} y/o &mdash;&nbsp;
                                 <TypeAnimation
                                     sequence={[
                                         "system administrator",
