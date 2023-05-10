@@ -1,4 +1,5 @@
 import Welcome from '@/components/welcome'
+import About from '@/components/about'
 
 
 export default function Home() {
@@ -6,6 +7,9 @@ export default function Home() {
             <div className="bg-primary text-primary min-h-screen">
                 <section>
                     <Welcome/>
+                </section>
+                <section>
+                    <About/>
                 </section>
             </div>
         )

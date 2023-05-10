@@ -19,9 +19,9 @@ const Header = () => {
                     <div className="text-primary font-bold text-xl">Jannik Schröder</div>
                 </Link>
                 <div className="hidden md:flex space-x-4">
-                    <Link href="/" className="text-primary hover:text-primary transition duration-200">Home
+                    <Link href="/" className="text-primary hover:text-accent transition duration-200">Home
                     </Link>
-                    <Link href="/projects" className="text-primary hover:text-primary transition duration-200">Projects
+                    <Link href="/projects" className="text-primary hover:text-accent transition duration-200">Projects
                     </Link>
                 </div>
                 <div className="md:hidden">
@@ -33,9 +33,9 @@ const Header = () => {
             {isMenuOpen && (
                 <div className="container mx-auto px-4 mt-4">
                     <nav className="md:hidden bg-gray-900 rounded-lg p-4 space-y-4">
-                        <Link href="/" className="text-gray-300 hover:text-primary transition duration-200 block" onClick={toggleMenu}>Home
+                        <Link href="/" className="text-primary hover:text-accent transition duration-200 block" onClick={toggleMenu}>Home
                         </Link>
-                        <Link href="/app/projects" className="text-gray-300 hover:text-primary transition duration-200 block" onClick={toggleMenu}>Projects
+                        <Link href="/projects" className="text-primary hover:text-accent transition duration-200 block" onClick={toggleMenu}>Projects
                         </Link>
                     </nav>
                 </div>
