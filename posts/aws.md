@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with AWS"
-image: "/public/me.jpeg"
+image: "/me.jpeg"
 description: "Create an AWS account and set up CLI/SDK access."
 tag:
 date: "2020-12-27"
