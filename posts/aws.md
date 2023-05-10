@@ -1,6 +1,8 @@
 ---
 title: "Getting Started with AWS"
-subtitle: "Create an AWS account and set up CLI/SDK access."
+image: "/public/me.jpeg"
+description: "Create an AWS account and set up CLI/SDK access."
+tag:
 date: "2020-12-27"
 ---
 

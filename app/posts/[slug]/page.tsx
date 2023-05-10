@@ -25,7 +25,7 @@ const PostPage = (props: any) => {
   return (
     <div className="bg-primary">
       <div className="my-12 text-center">
-        <h1 className="text-2xl text-slate-600 text-primary">
+        <h1 className="text-2xl text-slate-600 text-white">
           {post.data.title}
         </h1>
         <p className="text-slate-400 mt-2 text-primary">{post.data.date}</p>
@@ -36,6 +36,6 @@ const PostPage = (props: any) => {
       </article>
     </div>
   );
-
+};
 
 export default PostPage;

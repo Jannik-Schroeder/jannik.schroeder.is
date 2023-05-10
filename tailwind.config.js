@@ -14,6 +14,7 @@ module.exports = {
     textColor: theme => ({
     'primary': '#959da5',
       'accent': '#e1e4e8',
+    'white': '#fff',
     }),
     },
   plugins: [require('@tailwindcss/typography')],
