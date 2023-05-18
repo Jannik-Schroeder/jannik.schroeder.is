@@ -47,6 +47,8 @@ const Welcome = () => {
                                         2000,
                                         "animal lover",
                                         2000,
+                                        "Just getting started 📈",
+                                        2000,
                                     ]}
                                     wrapper="p"
                                     cursor={true}
@@ -69,7 +71,7 @@ const Welcome = () => {
                             </div>
                         </div>
                     <div className="flex justify-center md:justify-end">
-                        <div className="invisible md:visible md:w-64 md:h-64">
+                        <div className="hidden md:block md:w-64 md:h-64">
                             <Image
                                 src="/me.jpeg"
                                 width={1024}
