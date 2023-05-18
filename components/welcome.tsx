@@ -47,6 +47,8 @@ const Welcome = () => {
                                         2000,
                                         "animal lover",
                                         2000,
+                                        "Just getting started 📈",
+                                        2000,
                                     ]}
                                     wrapper="p"
                                     cursor={true}
