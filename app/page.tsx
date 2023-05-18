@@ -12,7 +12,7 @@ export default function Home() {
                 <section>
                     <About/>
                 </section>
-                <section className="space-y-4">
+                <section>
                     <Technologies/>
                 </section>
             </div>
