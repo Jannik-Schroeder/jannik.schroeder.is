@@ -8,8 +8,8 @@ const Footer = () => {
                     <div className="text-primary mb-8 md:mb-0">
                         <h2 className="text-3xl font-bold mb-4">Jannik Schröder</h2>
                         <ul>
+                            <p>©2023 | All rights reserved.</p>
                             <li><a href="mailto:jannik@schroeder.is" className="hover:text-blue-300 transition duration-200">jannik@schroeder.is</a></li>
-                            <p>©2023 Jannik Schröder. All rights reserved.</p>
                         </ul>
                     </div>
                     <div className="text-primary">

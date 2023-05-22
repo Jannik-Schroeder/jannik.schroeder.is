@@ -2,8 +2,8 @@
 title: "Solun Services"
 image: "/solun.png"
 description: "This article is about the creation and the idea behind solun."
-tag:
-date: "2020-12-27"
+tags: ['solun']
+date: "2023-05-20"
 ---
 
 ## What is Solun?
