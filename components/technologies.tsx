@@ -23,21 +23,17 @@ const Technologies = () => {
                             <h1 className="text-4xl md:h-6 font-bold mb-8 text-primary">Technologies 💻</h1>
                             <div className="text-primary flex-wrap justify-center flex font-semibold dark:text-gray-100 gap-5 mb-4">
                                 <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
-                                <Widget text="Linux"/>
+                                <Widget text="Docker"/>
+                                <Widget text="Virtualization"/>
+                                <Widget text="Python"/>
+                                <Widget text="NextJS"/>
+                                <Widget text="Bash"/>
+                                <Widget text="PostgreSQL"/>
+                                <Widget text="MariaDB"/>
+                                <Widget text="MongoDB"/>
+                                <Widget text="Deep Learning"/>
+                                <Widget text="VS Code"/>
+                                <Widget text="JetBrains"/>
                             </div>
                         </div>
                     </div>
