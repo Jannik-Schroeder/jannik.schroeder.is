@@ -2,7 +2,7 @@
 title: "Portfolio"
 image: "/portfolio.png"
 description: "This Website is a portfolio of my work."
-tags: ['portfolio'] 
+tags: ['nextjs', 'website', 'docker', 'typescript', 'tailwindcss'] 
 date: "2023-05-22"
 ---
 

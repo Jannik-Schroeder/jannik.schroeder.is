@@ -2,7 +2,7 @@
 title: "Solun Services"
 image: "/solun.png"
 description: "This article is about the creation and the idea behind solun."
-tags: ['solun']
+tags: ['nextjs', 'typescript', 'mongodb', 'groupware', 'tailwindcss']
 date: "2023-05-20"
 ---
 
