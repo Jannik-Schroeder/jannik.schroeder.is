@@ -9,7 +9,7 @@ const Footer = () => {
                         <h2 className="text-3xl font-bold mb-4">Jannik Schröder</h2>
                         <ul>
                             <li><a href="mailto:jannik@schroeder.is" className="hover:text-blue-300 transition duration-200">jannik@schroeder.is</a></li>
-                            <li><a href="/contact" className="hover:text-blue-300 transition duration-200">Contact</a></li>
+                            <p>©2023 Jannik Schröder. All rights reserved.</p>
                         </ul>
                     </div>
                     <div className="text-primary">
