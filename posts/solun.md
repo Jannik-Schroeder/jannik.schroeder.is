@@ -14,4 +14,8 @@ Solun aims to fill the gap in the privacy space and create an independent, open 
 
 ## How does Solun work?
 
-Coming Soon
+### Encrypted Message
+![Encrypted Message](../createMessageSolun.gif)
+
+### Encrypted File
+![Encrypted File](../uploadFileSolun.gif)
