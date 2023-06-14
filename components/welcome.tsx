@@ -56,7 +56,7 @@ const Welcome = () => {
                                 />
                             </div>
                             <div className="flex text-2xl space-x-5">
-                                <a href="https://github.com/schroeder-is">
+                                <a href="https://github.com/jannik-schroeder">
                                     <FiGithub/>
                                 </a>
                                 <a href="https://www.linkedin.com/in/jannik-schröder-7b1553231/">
