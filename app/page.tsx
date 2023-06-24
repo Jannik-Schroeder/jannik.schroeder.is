@@ -1,6 +1,7 @@
 import Welcome from '@/components/welcome'
 import About from '@/components/about'
 import Technologies from "@/components/technologies";
+import Timeline from "@/components/timeline";
 
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
                 </section>
                 <section>
                     <Technologies/>
+                </section>
+                <section>
+                    <Timeline/>
                 </section>
             </div>
         )
