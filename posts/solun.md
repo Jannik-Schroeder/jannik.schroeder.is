@@ -15,10 +15,11 @@ open service that allows you to share files, text and send emails with end-to-en
 without having to use external services like Whatsapp, Telegram, Signal and more.
 
 ## What is this Article about?
-This article is mainly about the backend and how I build the backend and how we ensure our data security and uptime.
+This article is mainly about the Infrastructure
+and how I build the server structure and how we ensure our data security and uptime.
 For information about the code and development, check out the blog [here](https://dwag.me/project/solun).
 
-## How is the Server strucktured?
+## How is the Server structured?
 ![Solun Server Structure](/structure.png)
 
 Maybe you ask why we have chosen this structure. Let's start with why we chose VM's instead of the cloud. Simply because it is cheaper. We have virtualized our systems with Proxmox.  
@@ -310,3 +311,54 @@ services:
     restart: always
 ```
 
+## Security and Privacy
+### Why there are so many Security Features?
+We offer our users the possibility to make the security according to their wishes.
+E2E and password is of course the highest level of security we offer. 
+You may ask yourself why there are "insecure" functions that are not 100% secure. 
+But we have thought. 
+Since the link to E2E is the key to decrypt the file in the URL is included, you can not simply enter them by heart. 
+So it should be possible to use our system also as url shortener. 
+For this you have our word that we will not read your data. 
+
+### How secure is our System?
+As an Outsider, it is impossible to connect to our server. For security reasons, we will not go into further security.
+But we can assure you that we have thought of everything and that our system is secure. And only Intern Accessible.
+
+## Collaboration and community aspects
+### How can I contribute? 
+We are very happy about every contribution. 
+You can contribute to our project by creating a Fork of one of our Repositories and then creating a Pull Request.
+We will then review your Pull Request, and if everything is fine, we will merge it or ask you to make some changes.
+Our GitHub Organization is [here](https://github.com/solun-pm).
+
+### How can I report a bug?
+You can report a bug by creating an Issue in the corresponding Repository.
+We will then review your Issue and try to fix the bug as soon as possible.
+
+### How can I request a feature?
+You can request a feature by creating an Issue in the corresponding Repository.
+We will then review your Issue and try to implement the feature as soon as possible.
+
+## Conclusion
+### What is the goal of this project?
+The goal of this project is to provide a secure and privacy-friendly alternative to Other Sharing Services.
+We want to offer our users the possibility to share files with other people without having to worry about their privacy.
+
+### Current status of the project
+The project is currently in the beta phase.
+The Main Features are implemented and the project is ready for use.
+We are currently working on the Webmail Client, but this is not yet ready for use.
+At the Services you will find the current status of the Service likes if it is ready for use or not.
+
+## Future plans
+You can already log in and create an account.
+However, you can not use the webmail function.
+You can use your mail without automatic E2E encryption.
+In the future when we have collected a few users. 
+We want to offer a few premium features, like more storage and no Rate Limit.
+We also want a Desktop Client for Windows, Linux and macOS.
+There is no plan for mobile apps at the moment. 
+However, webmail will become responsive like all other services.
+In the future, of course, we also want to grow globally and offer servers in America and other regions of the world.
+However, since we are currently not making any sales with this project, we only offer location in Germany. 
