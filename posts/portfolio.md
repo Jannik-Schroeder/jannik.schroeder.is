@@ -4,6 +4,8 @@ image: "/portfolio.png"
 description: "This Website is a portfolio of my work."
 tags: ['nextjs', 'website', 'docker', 'typescript', 'tailwindcss'] 
 date: "2023-05-22"
+website: "https://jsde.me"
+github: "https://github.com/Jannik-Schroeder/portfolio"
 ---
 
 ## What is this Website?

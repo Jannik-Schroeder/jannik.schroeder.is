@@ -1,6 +1,5 @@
 import fs from "fs";
 import matter from "gray-matter";
-import { PostMetadata } from "../components/PostMetadata";
 
 const getPostMetadata = (): { date: any; image: any; description: any; title: any; slug: string }[] => {
     const folder = "posts/";
@@ -17,6 +16,8 @@ const getPostMetadata = (): { date: any; image: any; description: any; title: an
             date: matterResult.data.date,
             description: matterResult.data.description,
             tags: matterResult.data.tags,
+            website: matterResult.data.website,
+            github: matterResult.data.github,
             slug: fileName.replace(".md", ""),
         };
     });

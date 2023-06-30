@@ -4,6 +4,8 @@ image: "/solun.png"
 description: "This article is about the creation and the idea behind solun."
 tags: ['nextjs', 'typescript', 'mongodb', 'groupware', 'tailwindcss']
 date: "2023-06-30"
+website: "https://solun.pm"
+github: "https://github.com/solun-pm"
 ---
 
 ## What is Solun?
