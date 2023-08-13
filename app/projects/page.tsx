@@ -17,7 +17,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="container lg:max-w-screen-lg mx-auto px-6 break-words min-h-screen text-primary mt-10">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">{postPreviews}</div>
+                <div className="mb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">{postPreviews}</div>
             </div>
         </div>
     );
