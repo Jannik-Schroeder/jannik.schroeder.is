@@ -1,7 +1,7 @@
 ---
 title: "Homelab"
-image: "/homelab.jpg"
-description: "The beggining of my homelab journey."
+image: "/homelab.JPG"
+description: "The beginning of my homelab journey."
 tags: ['homelab', 'linux', 'computing', 'buidling', 'learning'] 
 date: "2023-08-13"
 ---
