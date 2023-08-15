@@ -30,7 +30,7 @@ const PostPage = (props: any) => {
                 <h1 className="text-2xl text-slate-600 text-white">
                     {post.data.title}
                 </h1>
-                <p className="text-slate-400 mt-2 text-primary">{post.data.date}</p>
+                <p className="text-slate-400 mt-2 text-primary">Last updated: {post.data.date}</p>
 
                 <div className="flex justify-center items-center space-x-4">
                     {post.data.website && (
