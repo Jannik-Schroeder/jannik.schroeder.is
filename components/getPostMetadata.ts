@@ -1,5 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
+import { sortBy } from 'lodash';
+
 
 const getPostMetadata = (): { date: any; image: any; description: any; title: any; slug: string }[] => {
     const folder = "posts/";
@@ -22,7 +24,9 @@ const getPostMetadata = (): { date: any; image: any; description: any; title: an
         };
     });
 
-    return posts;
+    const sortedPosts = sortBy(posts, 'date').reverse(); 
+
+    return sortedPosts;
 };
 
 export default getPostMetadata;
