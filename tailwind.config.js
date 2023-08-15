@@ -9,7 +9,7 @@ module.exports = {
     extend: { },
     backgroundColor: theme => ({
     'secondary': '#2f363d',
-      'accent': '#f9826c',
+      'accent': '#8d00ff',
     }),
     textColor: theme => ({
     'primary': '#959da5',
