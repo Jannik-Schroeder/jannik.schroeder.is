@@ -6,7 +6,7 @@ import React from "react";
 import { FaGithub, FaGlobe } from "react-icons/fa"; // Importiere die passenden Icons
 
 const getPostContent = (slug: string) => {
-  const folder = "posts/";
+  const folder = "project/";
   const file = `${folder}${slug}.md`;
   const content = fs.readFileSync(file, "utf8");
   const matterResult = matter(content);
