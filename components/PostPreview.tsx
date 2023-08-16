@@ -52,7 +52,7 @@ const PostPreview = (props: PostMetadata) => {
                 </div>
                 <div>
                     <div className="flex items-center justify-center w-full">
-                        <Link className="text-sm font-bold text-blue-500" href={`/posts/${props.slug}`}>
+                        <Link className="text-sm font-bold text-blue-500" href={`/project/${props.slug}`}>
                             Learn More
                         </Link>
                     </div>
